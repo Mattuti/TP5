@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(53, 53, 83);
+        }
+        .boton{
+            width: 50px;
+        }
+        h1{
+            text-align: center;
+            color: white;
+        }
+        .cont{
+            background-color: rgb(255, 233, 233);
+            margin-left: 520px;
+            border: black 5px solid;
+            border-radius: 15px;
+            width: 300px;
+            height: 240px;
+        }
+        .res{
+            display: flex;
+            margin-left: 150px;
+            margin-top: 24px;
+            border-radius: 20px;
+            width: 900px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="boton">
+        <button type="button" onclick="volver()"  class="boton1"><img src="imagenes/inicio.png" class="boton">
+        </button>
+    </div>
+    <h1>¿Cuantas temporadas tiene "THE UMBRELLA ACADEMY"?</h1>
+    <div class="cont">
+        <img src="imagenes/pregunta8.jpg" style="width: 300px; height: 240px">
+    </div>
+    <div class="res">
+        <button type="button" onclick="correcta('pregunta9.html')" class="res"> <h3>4</h3></button>
+        <button type="button" onclick="incorrecta('pregunta9.html')" class="res"> <h3>5</h3></button>
+        <button type="button" onclick="incorrecta('pregunta9.html')" class="res"> <h3>3</h3></button>
+    </div>
+    
+    <script src="scrip.js"></script>
+</body>
+</html>
